@@ -50,4 +50,15 @@ nav a {
 nav {
   padding-top: 2rem;
 }
+
+li {
+  padding: 1rem;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+}
+
+li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
