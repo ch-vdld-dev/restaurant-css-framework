@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  color: black;
+}
+
+img {
+  max-height: 60rem;
+  margin-bottom: 5vh;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+}
+
+img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.9;
+}
+
+#carousel img {
+  max-height: 30rem;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+#galery img {
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.35), 0 15px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.35), 0 15px 12px rgba(0, 0, 0, 0.5);
+  padding: 1vh;
+  margin: 3vh;
+}
+
+#galery img:hover {
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.15), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+a, li {
+  color: black;
+  font-size: 22px;
+}
+
+nav a {
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.03);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.03);
+  margin: 0.5rem;
+}
+
+nav {
+  padding-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
