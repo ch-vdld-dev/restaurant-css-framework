@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   color:black;
+  overflow-x: hidden;
 }
 img {
   max-height: 60rem;
@@ -24,7 +24,9 @@ img {
   box-shadow: 0 19px 38px rgba(0,0,0,0.35), 0 15px 12px rgba(0,0,0,0.5);
 
   padding: 1vh;
-  margin: 3vh;
+  padding-right: 1vh;
+  border-bottom: 3px solid #577755;
+  
   &:hover{
     box-shadow: 0 19px 38px rgba(0,0,0,0.15), 0 15px 12px rgba(0,0,0,0.22);
   }
