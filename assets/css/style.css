@@ -52,7 +52,7 @@ nav {
 }
 
 li {
-  padding: 1rem;
+  padding: 0.3rem;
   -webkit-transition: all ease 100ms;
   transition: all ease 100ms;
 }
