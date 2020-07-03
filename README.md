@@ -16,7 +16,7 @@
 
 ## Contenu: 
 
-- Une page d'acceuil crée par: *Christphe*
+- Une page d'acceuil crée par: *Christophe*
 - Une page avec un menu crée par: *Robin*
 - Une page avec la gallerie des photos crée par: *Calvin*
 - Una page de contact crée par: *Aleksandra*
