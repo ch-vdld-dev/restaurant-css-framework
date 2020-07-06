@@ -1,0 +1,38 @@
+.menuH {
+    margin-top: 5vh;
+    h2 {
+        color: $color-three;
+        padding: 4vh;
+    }
+    img{
+        margin-bottom: 5vh;
+    }
+}
+
+.entree {
+    margin: 5vh 0;
+    padding: 2vh ;
+    border: 4px solid $color-four;
+    box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+
+        h2{
+            color: $color-five;
+        }
+
+        h5 {
+            color: $color-three;
+        }
+
+        .price li {
+            color: $color-five;
+            font-size: 0.8em;
+        }
+}
+
+.potage, .platfroid, .platchaud, .dessert, .boissons, .boissonsfroide, .boissonschaude, .boissonsexo {
+    @extend .entree;
+}
+
+.list-group-item {
+    margin-top: 0;
+}
