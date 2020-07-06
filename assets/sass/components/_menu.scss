@@ -9,7 +9,7 @@
     }
 }
 
-.entree {
+.menuS{
     margin: 5vh 0;
     padding: 2vh ;
     border: 4px solid $color-four;
@@ -28,11 +28,6 @@
             font-size: 0.8em;
         }
 }
-
-.potage, .platfroid, .platchaud, .dessert, .boissons, .boissonsfroide, .boissonschaude, .boissonsexo {
-    @extend .entree;
-}
-
 .list-group-item {
     margin-top: 0;
 }
