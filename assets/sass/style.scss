@@ -8,6 +8,18 @@
 .row {
 	min-height: 70vh;
 	align-items: center;
+	.avis {
+		background-color: rgba(0,0,0,0.2);
+		justify-content: flex-start;
+		font-family: 'Dancing Script', cursive;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		max-height: 70vh;
+	}
 }
 header {
 	background-size: cover;
@@ -27,6 +39,34 @@ header {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+}
+.jumbotron-fluid {
+	font-family: 'Dancing Script', cursive;
+	max-height: 70vh;
+}
+#contact {
+	background-image: url(../img/plat2.jpg);
+	color: seagreen;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: calc(100hv - 50px);
+}
+#contacct {
+	.row {
+		min-height: (105hv);
+	}
+}
+.formContact {
+	background-color: rgba(255,255,255,.7);
+	padding: 2rem 1rem;
+}
+span {
+	color: teal;
+	font-size: 4rem;
+}
+.empty {
+	background-image: url(../img/PhaXao2.jpg);
 }
 footer {
 	background-size: cover;
