@@ -30,3 +30,24 @@ color: white;
     flex-direction: column;
     align-items: center;
 }
+
+
+footer{
+    background-size: cover;
+
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+     color: teal;
+     max-height: 20vh;
+    }
+    footer a{
+        color:teal;
+        font-size: 2rem;
+        transition: all .2s ease-in-out;
+
+    }
+    footer a:hover{
+        color: gray;
+    }
+
+

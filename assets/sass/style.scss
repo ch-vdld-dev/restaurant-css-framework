@@ -1,32 +1,45 @@
-.navbar-brandt img{
-    max-height: 60px;
-    font-family: 'Raleway', sans-serif;
-    background-attachment: fixed;
+.navbar-brandt {
+	img {
+		max-height: 60px;
+		font-family: 'Raleway', sans-serif;
+		background-attachment: fixed;
+	}
 }
-
-.row{
-    min-height: 70vh;
-    align-items: center;
-    
+.row {
+	min-height: 70vh;
+	align-items: center;
 }
-header{ 
-background-size: cover;
-background-position: bottom;
-background-image: url(../img/team.jpg);
-object-fit: cover;
-color: white;
-
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    max-height: 70vh;
+header {
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(../img/team.jpg);
+	object-fit: cover;
+	color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-height: 70vh;
 }
-
-.textHaut{
-    background-color: rgba(0,0,0,0.6);
-    min-height: 70vh;
-    font-family: 'Dancing Script', cursive;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.textHaut {
+	background-color: rgba(0,0,0,0.6);
+	min-height: 70vh;
+	font-family: 'Dancing Script', cursive;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+footer {
+	background-size: cover;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	color: teal;
+	max-height: 20vh;
+	a {
+		color: teal;
+		font-size: 2rem;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color: gray;
+		}
+	}
 }
