@@ -1,0 +1,48 @@
+body {
+  color: black;
+  font-family: "Patua One", cursive;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+          box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+  margin-bottom: 5vh;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+  background-color: #949393;
+}
+
+#gallery img {
+  -webkit-box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+          box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+  margin-bottom: 5vh;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+  background-color: #979797;
+}
+
+#gallery img:hover {
+  -webkit-box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+          box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0.9;
+}
+
+#navbarMenu a, li {
+  color: #646464;
+  font-size: 22px;
+  margin: 0.5rem;
+  -webkit-transition: all ease 100ms;
+  transition: all ease 100ms;
+}
+
+#navbarMenu a:hover, li:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2);
+          box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2);
+}
+/*# sourceMappingURL=style.css.map */
