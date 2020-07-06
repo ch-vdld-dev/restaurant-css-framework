@@ -15,6 +15,10 @@ body {
   background-color: #949393;
 }
 
+#gallery {
+  margin: 3rem;
+}
+
 #gallery img {
   -webkit-box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
           box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
