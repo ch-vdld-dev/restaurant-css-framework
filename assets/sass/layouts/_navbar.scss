@@ -1,5 +1,4 @@
 #navbarMenu a, li {
-  
     color: rgb(100, 100, 100);
     font-size: 22px;
     margin: 0.5rem;
@@ -9,4 +8,11 @@
       box-shadow: 0 9px 14px rgba(147, 229, 171, 0.10), 0 7px 6px rgba(147, 229, 171, 0.2);
      
     }
+  }
+  .navbar-default{
+    transition:500ms ease;
+    background:#72b678;
+  }
+  .navbar-default.scrolled{
+    background:transparent;
   }
