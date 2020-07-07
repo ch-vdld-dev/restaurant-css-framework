@@ -1,6 +1,7 @@
 body {
   color: black;
   overflow-x: hidden; }
+<<<<<<< HEAD
 
 #contact {
   background-image: url(../img/plat2.jpg);
@@ -13,6 +14,8 @@ body {
 .formContact {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 3rem 1rem; }
+=======
+>>>>>>> fed5cfd3ce98b9dde6d4459e8a331c21136b0630
 
 .carousel-item img {
   object-fit: cover;
@@ -58,7 +61,11 @@ page-link {
       filter: invert(0%); }
 
 .menuH {
+<<<<<<< HEAD
   margin-top: 5vh; }
+=======
+  margin-top: 10vh; }
+>>>>>>> fed5cfd3ce98b9dde6d4459e8a331c21136b0630
   .menuH h2 {
     color: #4E878C;
     font-size: 3em;
@@ -137,6 +144,7 @@ page-link {
 footer {
   background-size: cover;
   padding: 2rem 5rem 1.5rem 5rem;
+<<<<<<< HEAD
   background-color: #72b678;
   max-height: 20vh; }
   footer:hover {
@@ -150,6 +158,21 @@ footer {
       font-size: 2rem; }
       footer:hover .fa:hover {
         color: darkgreen; }
+=======
+  color: #72b678;
+  max-height: 20vh; }
+  footer a {
+    color: white;
+    font-size: 0.5rem;
+    transition: all .2s ease-in-out; }
+    footer a:hover {
+      color: #72b67e; }
+      footer a:hover img {
+        filter: invert(100%); }
+    footer a .fa {
+      padding: 0.5rem;
+      font-size: 2rem; }
+>>>>>>> fed5cfd3ce98b9dde6d4459e8a331c21136b0630
 
 .jumbotron {
   padding-top: 4.4rem;
