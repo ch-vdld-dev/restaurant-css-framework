@@ -9,6 +9,13 @@
      
     }
   }
+  .navbar-brand {
+      img {
+        max-height: 100vh;
+        font-family: 'Raleway', sans-serif;
+        background-attachment: fixed;
+      }
+  }
   .navbar-default{
     transition:500ms ease;
     background:#72b678;

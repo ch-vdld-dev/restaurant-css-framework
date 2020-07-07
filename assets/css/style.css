@@ -32,6 +32,11 @@ body {
     transform: scale(1.01);
     box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2); }
 
+.navbar-brand img {
+  max-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-attachment: fixed; }
+
 .navbar-default {
   transition: 500ms ease;
   background: #72b678; }
@@ -39,12 +44,37 @@ body {
 .navbar-default.scrolled {
   background: transparent; }
 
+.header {
+  padding: 5rem; }
+
+footer {
+  background-size: cover;
+  padding: 2rem 5rem 1.5rem 5rem;
+  color: #72b678;
+  max-height: 20vh; }
+  footer a {
+    color: #72b678;
+    font-size: 0.5rem;
+    transition: all .2s ease-in-out; }
+    footer a:hover {
+      color: darkgreen; }
+    footer a .fa {
+      padding: 0.5rem;
+      font-size: 2rem; }
+
 .jumbotron {
-  background: url(../img/batiment.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #72b678;
-  object-fit: cover; }
+  background: transparent; }
+
+.image_back {
+  background: url("../img/batiment.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  width: 100%;
+  z-index: -1; }
 
 /*# sourceMappingURL=style.css.map */
