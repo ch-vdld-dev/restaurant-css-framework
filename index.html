@@ -25,42 +25,52 @@
     <!-- Main start -->
         <!-- Header start -->
         <header>
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-md navbar-light justify-content-end">
-                        <a class="navbar-brand" href="index.html"><img src="assets/img/Logo_transparent.png" width="100vh" alt="Site logo"></a>
-                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarMenu">
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="page_menu.html">La Carte</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="galery.html">Galerie</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+            <section class="header">
+                <!-- Navbar -->
+                <div class="container">
+                    <div class="row">
+                        <nav class="col navbar navbar-expand-sm justify-content-end fixed-top navbar-default navbar-default-scrolled">
+                            <a class="navbar-brand" href="index.html"><img src="assets/img/Logo_transparent.png" width=100vh alt="Site logo"></a>
+                            <button class="navbar-toggler " data-toggle="collapse" data-target="#navbarMenu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse " id="navbarMenu">
+                                <ul class="navbar-nav ">
+                                    <li class="nav-item ">
+                                        <a href="index.html" class="nav-link">ACCUEIL</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="page_menu.html" class="nav-link">MENU</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="galery.html" class="nav-link">GALERIE</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </div>
+            </section>
         </header>
         <!-- Header end -->
         <!-- Main start -->
         <main>
             <section class="main">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col">
                             <div class="jumbotron">
-                                <h1>Bienvenue au Pot-au-Pho</h1>
+                                <div class="image_back">
+                                    <h1>Bienvenue au Pot-au-Pho</h1>
+                                    <article>
+                                        Le plat national vietnamien s’appelle « Phở ». (prononcez « Feu »)
+                                        D’après l’histoire, il viendrait du plat français, « le pot-au-feu », et serait lié à l’influence française pendant les colonies.
+                                        A l’origine, il n’y avait pas de bœuf et la viande serait arrivée avec les français au XIX siècle.
+                                    </article>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,26 +107,25 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
             </section>
         </main>
         <!-- Main start -->
         <!-- Footer start -->
         <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-left">
-                        <ul class="list-inline social">
-                            <li class="list-inline-item"><a href="https://www.facebook.com/papcharleroi/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://www.instagram.com/potaupho/?hl=fr" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="mailto:contact@potaupho.be"><i class="fa fa-envelope"></i></a></li>
-                        </ul>
+            <div class="row">
+                    <div class="col-12 col-md-4 text-left">
+                        <a class="navbar-brand" href="index.html"> <img  src="assets/img/Logo_transparent.png" alt="logo" width="50vh">Copyright 2017 &copy</a>
                     </div>
-                    <div class="col text-right">
-                        <span>Pot-au-Phở &copy; 2020</span>
-                    </div>
-                </div>
+                    <div class="col-12 col-md-8 socialicon text-right">
+                        <a href="https://www.facebook.com/papcharleroi/" ><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/potaupho/?hl=fr"><i class="fa fa-instagram"></i></a>
+                        <a href="https://fr.tripadvisor.be/Restaurant_Review-g188646-d12010863-Reviews-Pot_au_Pho-Charleroi_Hainaut_Province_Wallonia.html"><i class="fa fa-tripadvisor"></i></a>
+                        <a href="https://www.yelp.com/biz/pot-au-pho-charleroi"><i class="fa fa-yelp"></i></a>
+                        <a href="https://www.trouvetonresto.be/pot-au-pho-restaurant-charleroi/19815"><i class="fa fa-utensils"></i></a>
+                        </div>
             </div>
-
         </footer>
         <!-- Footer end -->
         <!-- Optional JavaScript -->
@@ -133,6 +142,9 @@
         <!-- Bootstrap JS -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
                 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous">
+        </script>
+        <script src="https://kit.fontawesome.com/d1aef7ce64.js"
                 crossorigin="anonymous">
         </script>
     </body>
