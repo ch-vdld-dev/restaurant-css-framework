@@ -1,0 +1,133 @@
+body {
+  color: black;
+  overflow-x: hidden; }
+
+.carousel-item img {
+  object-fit: cover;
+  box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+  margin-bottom: 5vh;
+  transition: all ease 100ms;
+  background-color: #949393; }
+
+#gallery {
+  margin: 1rem; }
+
+#gallery img {
+  box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+  margin-bottom: 5vh;
+  transition: all ease 100ms;
+  background-color: #979797; }
+  #gallery img:hover {
+    box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+    transform: scale(1.03);
+    opacity: 0.9; }
+
+#navbarMenu a, li, .price li {
+  color: #646464;
+  font-size: 22px;
+  margin: 0.5rem;
+  transition: all ease 100ms; }
+  #navbarMenu a:hover, li:hover {
+    transform: scale(1.01);
+    box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2); }
+
+.menuH {
+  margin-top: 5vh; }
+  .menuH h2 {
+    color: #4E878C;
+    font-size: 3em;
+    padding: 4vh; }
+  .menuH img {
+    margin-bottom: 5vh; }
+
+.menuS {
+  margin: 5vh 0;
+  padding: 2vh;
+  border: 4px solid #4E878C;
+  box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5); }
+  .menuS h2 {
+    color: #00241B; }
+  .menuS h5 {
+    color: #65B891; }
+  .menuS p {
+    font-size: 0.7em; }
+
+.price {
+  padding: 0; }
+  .price li {
+    color: #00241B;
+    font-size: 0.7em; }
+    .price li:hover {
+      box-shadow: none;
+      transform: scale(1);
+      opacity: 1; }
+
+li, .price li {
+  list-style: none; }
+
+.list-group-item {
+  margin-top: 0; }
+
+@media screen and (max-width: 500px) {
+  .menuS p {
+    display: none; } }
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  padding: 20%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+#navbarMenu a, li, .price li {
+  color: #646464;
+  font-size: 22px;
+  margin: 0.5rem;
+  transition: all ease 100ms; }
+  #navbarMenu a:hover, li:hover {
+    transform: scale(1.01);
+    box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2); }
+
+.header {
+  padding: 5rem; }
+
+footer {
+  background-size: cover;
+  padding: 2rem 5rem 1.5rem 5rem;
+  color: #72b678;
+  max-height: 20vh; }
+  footer a {
+    color: #72b678;
+    font-size: 0.5rem;
+    transition: all .2s ease-in-out; }
+    footer a:hover {
+      color: darkgreen; }
+    footer a .fa {
+      padding: 0.5rem;
+      font-size: 2rem; }
+
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #72b678;
+  background: transparent;
+  height: 600px; }
+
+.image_back {
+  background: url("../img/batiment.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  width: 100%;
+  height: 600px;
+  /*same height as jumbotron */
+  z-index: -1; }
+
+/*# sourceMappingURL=style.css.map */

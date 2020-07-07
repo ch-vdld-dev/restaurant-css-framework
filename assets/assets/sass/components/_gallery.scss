@@ -1,0 +1,16 @@
+#gallery {
+  margin: 1rem;
+}
+
+#gallery img {
+    box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+    margin-bottom: 5vh;
+    transition: all ease 100ms;
+    background-color: rgb(151, 151, 151);
+  
+    &:hover {
+      box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
+      transform: scale(1.03);
+      opacity: 0.9;
+    }
+  }

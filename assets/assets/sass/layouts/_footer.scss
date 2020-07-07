@@ -1,0 +1,18 @@
+footer {
+	background-size: cover;
+	padding: 2rem 5rem 1.5rem 5rem;
+	color: #72b678;
+	max-height: 20vh;
+	a {
+		color: #72b678;
+		font-size: 0.5rem;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color: darkgreen;
+		}
+		.fa {
+			padding:0.5rem;
+			font-size: 2rem;
+		}
+	}
+}
