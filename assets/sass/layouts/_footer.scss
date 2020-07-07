@@ -1,21 +1,21 @@
 footer {
 	background-size: cover;
 	padding: 2rem 5rem 1.5rem 5rem;
-	color: #72b678;
+	background-color: #72b678;
 	max-height: 20vh;
+	&:hover {
+			filter: invert(0%);
 	a {
+		font-size: 1rem;
 		color: white;
-		font-size: 0.5rem;
 		transition: all .2s ease-in-out;
-		&:hover {
-			color: #72b67e;
-			img {
-				filter: invert(100%);
-			}
 		}
 		.fa {
 			padding:0.5rem;
 			font-size: 2rem;
+			&:hover {
+				color:darkgreen;
+			}
 		}
 	}
 }
