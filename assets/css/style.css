@@ -19,7 +19,7 @@ body {
     transform: scale(1.03);
     opacity: 0.9; }
 
-#navbarMenu a, li {
+#navbarMenu a, li, .price li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;
@@ -31,7 +31,8 @@ body {
 .menuH {
   margin-top: 5vh; }
   .menuH h2 {
-    color: #65B891;
+    color: #4E878C;
+    font-size: 3em;
     padding: 4vh; }
   .menuH img {
     margin-bottom: 5vh; }
@@ -45,11 +46,27 @@ body {
     color: #00241B; }
   .menuS h5 {
     color: #65B891; }
-  .menuS .price li {
+  .menuS p {
+    font-size: 0.7em; }
+
+.price {
+  padding: 0; }
+  .price li {
     color: #00241B;
-    font-size: 0.8em; }
+    font-size: 0.7em; }
+    .price li:hover {
+      box-shadow: none;
+      transform: scale(1);
+      opacity: 1; }
+
+li, .price li {
+  list-style: none; }
 
 .list-group-item {
   margin-top: 0; }
+
+@media screen and (max-width: 500px) {
+  .menuS p {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
