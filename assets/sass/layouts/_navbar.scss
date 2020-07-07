@@ -9,15 +9,22 @@
     }
 }
 .navbar-default {
-    transition:500ms ease;
     background:#72b678;
-    img {
-        filter: invert(100%);
-    }
-    &:hover {
-        background:white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-default {
+        transition:500ms ease;
+        background:#72b678;
         img {
-            filter: invert(0%);
+            filter: invert(100%);
         }
-  }
+        &:hover {
+            background:white;
+            img {
+                filter: invert(0%);
+            }
+      }
+    }
 }
