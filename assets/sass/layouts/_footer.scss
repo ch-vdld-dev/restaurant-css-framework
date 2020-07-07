@@ -4,11 +4,14 @@ footer {
 	color: #72b678;
 	max-height: 20vh;
 	a {
-		color: #72b678;
+		color: white;
 		font-size: 0.5rem;
 		transition: all .2s ease-in-out;
 		&:hover {
-			color: darkgreen;
+			color: #72b67e;
+			img {
+				filter: invert(100%);
+			}
 		}
 		.fa {
 			padding:0.5rem;

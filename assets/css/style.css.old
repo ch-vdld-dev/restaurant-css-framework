@@ -22,7 +22,7 @@ body {
     transform: scale(1.03);
     opacity: 0.9; }
 
-#navbarMenu a, li {
+#navbarMenu a, li, .price li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;
@@ -31,15 +31,17 @@ body {
     transform: scale(1.01);
     box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2); }
 
+.navbar-brand img {
+  max-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-attachment: fixed; }
+
 .navbar-default {
   transition: 500ms ease;
   background: #72b678; }
-  .navbar-default img {
-    filter: invert(100%); }
-  .navbar-default:hover {
-    background: white; }
-    .navbar-default:hover img {
-      filter: invert(0%); }
+
+.navbar-default.scrolled {
+  background: transparent; }
 
 .menuH {
   margin-top: 5vh; }
@@ -66,12 +68,14 @@ body {
   padding: 0; }
   .price li {
     color: #00241B;
-    font-size: 0.7em;
-    list-style: none; }
+    font-size: 0.7em; }
     .price li:hover {
       box-shadow: none;
-      transform: none;
+      transform: scale(1);
       opacity: 1; }
+
+li, .price li {
+  list-style: none; }
 
 .list-group-item {
   margin-top: 0; }
@@ -93,7 +97,7 @@ body {
   width: 100%;
   position: absolute; }
 
-#navbarMenu a, li {
+#navbarMenu a, li, .price li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;
@@ -102,18 +106,20 @@ body {
     transform: scale(1.01);
     box-shadow: 0 9px 14px rgba(147, 229, 171, 0.1), 0 7px 6px rgba(147, 229, 171, 0.2); }
 
+.navbar-brand img {
+  max-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-attachment: fixed; }
+
 .navbar-default {
   transition: 500ms ease;
   background: #72b678; }
-  .navbar-default img {
-    filter: invert(100%); }
-  .navbar-default:hover {
-    background: white; }
-    .navbar-default:hover img {
-      filter: invert(0%); }
+
+.navbar-default.scrolled {
+  background: transparent; }
 
 .header {
-  padding-bottom: 3.5rem; }
+  padding: 5rem; }
 
 footer {
   background-size: cover;
@@ -121,34 +127,31 @@ footer {
   color: #72b678;
   max-height: 20vh; }
   footer a {
-    color: white;
+    color: #72b678;
     font-size: 0.5rem;
     transition: all .2s ease-in-out; }
     footer a:hover {
-      color: #72b67e; }
-      footer a:hover img {
-        filter: invert(100%); }
+      color: darkgreen; }
     footer a .fa {
       padding: 0.5rem;
       font-size: 2rem; }
 
 .jumbotron {
-  padding-top: 4.4rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
+  color: #72b678;
   background: transparent;
-  height: 850px; }
+  height: 600px; }
 
 .image_back {
   background: url("../img/batiment.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   position: fixed;
   width: 100%;
-  height: 1000px;
+  height: 600px;
   /*same height as jumbotron */
-  left: 0;
   z-index: -1; }
 
 /*# sourceMappingURL=style.css.map */
