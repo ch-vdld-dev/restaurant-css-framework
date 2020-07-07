@@ -22,7 +22,7 @@ body {
     transform: scale(1.03);
     opacity: 0.9; }
 
-#navbarMenu a, li, .price li {
+#navbarMenu a, li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;
@@ -56,14 +56,12 @@ body {
   padding: 0; }
   .price li {
     color: #00241B;
-    font-size: 0.7em; }
+    font-size: 0.7em;
+    list-style: none; }
     .price li:hover {
       box-shadow: none;
-      transform: scale(1);
+      transform: none;
       opacity: 1; }
-
-li, .price li {
-  list-style: none; }
 
 .list-group-item {
   margin-top: 0; }
@@ -85,7 +83,7 @@ li, .price li {
   width: 100%;
   position: absolute; }
 
-#navbarMenu a, li, .price li {
+#navbarMenu a, li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;

@@ -33,21 +33,17 @@
     
         padding: 0;
     
-    li {
-        @extend li;
+     li {
         color: $color-five;
         font-size: 0.7em;
-        
-        &:hover {
-            box-shadow: none;
-            transform: scale(1);
-            opacity: 1;
-        }
-    }
-}
+        list-style: none; 
 
-li {
-    list-style: none;
+            &:hover {
+                box-shadow: none;
+                transform: none;
+                opacity: 1;
+            }
+    }
 }
 
 .list-group-item {
