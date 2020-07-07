@@ -1,7 +1,8 @@
 .menuH {
     margin-top: 5vh;
     h2 {
-        color: $color-three;
+        color: $color-four;
+        font-size: 3em;
         padding: 4vh;
     }
     img{
@@ -23,11 +24,38 @@
             color: $color-three;
         }
 
-        .price li {
-            color: $color-five;
-            font-size: 0.8em;
+        p{
+            font-size: 0.7em;
         }
+    }
+
+.price {
+    
+        padding: 0;
+    
+    li {
+        @extend li;
+        color: $color-five;
+        font-size: 0.7em;
+        
+        &:hover {
+            box-shadow: none;
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
 }
+
+li {
+    list-style: none;
+}
+
 .list-group-item {
     margin-top: 0;
+}
+
+@media screen and  (max-width: 500px) {
+    .menuS p{
+        display: none;
+    }
 }

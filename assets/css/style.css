@@ -35,7 +35,7 @@ body {
   opacity: 0.9;
 }
 
-#navbarMenu a, li {
+#navbarMenu a, li, .price li {
   color: #646464;
   font-size: 22px;
   margin: 0.5rem;
@@ -51,43 +51,44 @@ body {
 }
 
 .menuH {
-  margin-top: 5vh;
-}
-
-.menuH h2 {
-  color: #65B891;
-  padding: 4vh;
-}
-
-.menuH img {
-  margin-bottom: 5vh;
-}
+  margin-top: 5vh; }
+  .menuH h2 {
+    color: #4E878C;
+    font-size: 3em;
+    padding: 4vh; }
+  .menuH img {
+    margin-bottom: 5vh; }
 
 .menuS {
   margin: 5vh 0;
   padding: 2vh;
   border: 4px solid #4E878C;
-  -webkit-box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
-          box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5);
-}
+  box-shadow: 0 9px 14px rgba(101, 184, 145, 0.35), 0 7px 6px rgba(101, 184, 145, 0.5); }
+  .menuS h2 {
+    color: #00241B; }
+  .menuS h5 {
+    color: #65B891; }
+  .menuS p {
+    font-size: 0.7em; }
 
-.menuS h2 {
-  color: #00241B;
-}
+.price {
+  padding: 0; }
+  .price li {
+    color: #00241B;
+    font-size: 0.7em; }
+    .price li:hover {
+      box-shadow: none;
+      transform: scale(1);
+      opacity: 1; }
 
-.menuS h5 {
-  color: #65B891;
-}
-
-.menuS .price li {
-  color: #00241B;
-  font-size: 0.8em;
-}
+li, .price li {
+  list-style: none; }
 
 .list-group-item {
   margin-top: 0;
 }
 
+/*# sourceMappingURL=style.css.map */
 .map-responsive {
   overflow: hidden;
   padding-bottom: 50%;
@@ -104,3 +105,9 @@ body {
   position: absolute;
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 500px) {
+  .menuS p {
+    display: none; 
+  }
+   }
