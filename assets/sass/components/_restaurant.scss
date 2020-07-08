@@ -12,7 +12,9 @@
     width:100%;
     position:absolute;
 }
+@media (max-width: 768px) { .sm-margin { margin-top: 10%; } }
 
-.info {
-    padding-top: 5%;
+
+.map {
+    margin-bottom: 5%;
 }
