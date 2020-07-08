@@ -1,6 +1,20 @@
 body {
   color: black;
   overflow-x: hidden; }
+  body a {
+    color: #65B891; }
+
+#contact {
+  background-image: url(../img/plat2.jpg);
+  color: seagreen;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100hv - 50px); }
+
+.formContact {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3rem 1rem; }
 
 .carousel-item img {
   object-fit: cover;
@@ -124,20 +138,20 @@ page-link {
 
 footer {
   background-size: cover;
-  padding: 2rem 5rem 1.5rem 5rem;
-  color: #72b678;
-  max-height: 20vh; }
-  footer a {
-    color: white;
-    font-size: 0.5rem;
-    transition: all .2s ease-in-out; }
-    footer a:hover {
-      color: #72b67e; }
-      footer a:hover img {
-        filter: invert(100%); }
-    footer a .fa {
+  margin-top: 2vh;
+  padding: 1rem 5rem 1rem 5rem;
+  max-height: 20vh;
+  background-color: rgba(255, 255, 255, 0.767); }
+  footer:hover {
+    filter: invert(0%); }
+    footer:hover a {
+      color: #65B891;
+      transition: all .2s ease-in-out; }
+    footer:hover .fa {
       padding: 0.5rem;
       font-size: 2rem; }
+      footer:hover .fa:hover {
+        color: #4E878C; }
 
 .jumbotron {
   padding-top: 4.4rem;

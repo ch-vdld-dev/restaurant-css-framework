@@ -1,4 +1,9 @@
 body {
     color: black;
     overflow-x: hidden;
+
+    a {
+        color: $color-three;
+    }
 }
+

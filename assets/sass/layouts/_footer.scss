@@ -1,20 +1,20 @@
 footer {
 	background-size: cover;
-	padding: 2rem 5rem 1.5rem 5rem;
-	background-color: #72b678;
+	margin-top: 2vh;
+	padding: 1rem 5rem 1rem 5rem;
 	max-height: 20vh;
+	background-color: rgba(255, 255, 255, 0.767);
 	&:hover {
 			filter: invert(0%);
 	a {
-		font-size: 1rem;
-		color: white;
+		color: $color-three;
 		transition: all .2s ease-in-out;
 		}
 		.fa {
 			padding:0.5rem;
 			font-size: 2rem;
 			&:hover {
-				color:darkgreen;
+				color:$color-four;
 			}
 		}
 	}
