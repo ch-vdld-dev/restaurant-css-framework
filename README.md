@@ -4,7 +4,7 @@
 
 - Pojet de groupe qui a débuté le 03/07/2020 
 - Deadline 07/07/2020 17h
-- Projet publé sur la page: (https://github.com/ch-vdld-dev/restaurant-css-framework.git)
+- Projet publé sur la page: (https://ch-vdld-dev.github.io/restaurant-css-framework/index.html)
 
 
 ## Collaborateurs: 
